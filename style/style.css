@@ -154,7 +154,9 @@ h2 {
 .animation {
    display: flex;
    flex-direction: column;
+   /* position: relative; */
    position: sticky;
+   top: 20px
 }
 
 .circle {
@@ -165,6 +167,9 @@ h2 {
     margin: 10px;
     animation: circleAnimation 1s infinite;
     transform-origin: center center;
+    /* position: -webkit-sticky; */
+    /* position: sticky;
+    top: 20px */
   }
 
   @keyframes circleAnimation {
