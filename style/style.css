@@ -15,17 +15,12 @@
     background-image: url(../images/BCKG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: grid;
-    grid-template-columns: 1000px;
-    grid-template-rows: 80px 250px 100px 70px;
-    row-gap: 1em;
-    padding: 20px 50px;
-    justify-items: center;
-    justify-content: space-around;
-    align-items: center;
+    padding-top: 60px;
+    text-align: center;
 }
 
 h1 {
+    padding: 30px;
     font-family: 'AbandoN';
     font-weight: 100;
     font-size: 140px;
@@ -63,21 +58,18 @@ h3 {
 }
 
 a {
-    color: #6b4d57;
+    color: #6b4d57 !important;
 }
 
 .socialMedia{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
     font-size: 24px;
-    width: 550px;
     display: flex;
     justify-content: space-between;
+    padding: 35px 350px;
 }
 
 .socialMedia a {
-    color: #f6f3f3;
+    color: #f6f3f3 !important;
 }
 
 .secPage {
@@ -85,38 +77,16 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: -170px;
-    display: grid;
-    grid-template-columns: 1100px;
-    grid-template-rows: auto auto auto;
-    padding: 0 10vw;
-}
-
-.secHead {
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .navigation {
+    padding-top: 40px;
     font-family: 'AbandoN';
     font-weight: 130;
     font-size: 17px;
-    width: 1100px;
-    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.textcont {
-    height: 200px;
-    width: auto;
-    padding: 3vh 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .secQuote {
@@ -125,6 +95,7 @@ a {
 }
 
 h2 {
+    padding-top: 50px;
     font-family: 'AbandoN';
     font-weight: 500;
     font-size: 85px;
@@ -139,7 +110,6 @@ h2 {
 
 .mainTxt {
     font-family: 'Antic Slab', serif;
-    width: 670px;
     text-align: justify;
     font-size: 20px;
 }
@@ -147,6 +117,34 @@ h2 {
 .mainTxt p {
     padding: 20px 0;
 }
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: gray;
+    margin: 10px;
+    animation: circleAnimation 1s infinite;
+    transform-origin: center center;
+  }
+
+  @keyframes circleAnimation {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+        background-color: gray;
+      }
+      50% {
+        transform: translate(0, 50px) scale(.4);
+        opacity: .5;
+        background-color: white;
+      }
+      100% {
+        transform: translate(0, 0) scale(1);
+        opacity: 1;
+        background-color: gray;
+      }
+  }
 
 h4 {
     font-family: 'Oswald', sans-serif;
@@ -201,7 +199,6 @@ h4 {
         font-size: 18px;
         width: 800px;
         height: auto;
-        /* flex-direction: column; */
     }
 
     .secHead {
@@ -564,4 +561,4 @@ h4 {
     .secPage footer {
         width: 280px;
     }
-}
+} 
