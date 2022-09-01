@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'AbandoN';
     src: url('../fonts/AbandoN.ttf');
@@ -89,4 +90,97 @@ p {
     h2{
         font-size: 50px;
     }
+=======
+@font-face {
+    font-family: 'AbandoN';
+    src: url('../fonts/AbandoN.ttf');
+  }
+
+.indexPg {
+    background-image: url(../images/BCKG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.navbar-nav {
+    font-family: 'AbandoN' !important;
+    font-weight: 130 !important;
+    font-size: 30px !important;
+    color: #6b4d57 !important;
+}
+
+h1 {
+    font-family: 'AbandoN';
+    font-weight: 100;
+    font-size: 140px;
+    color: #b80f00;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #b80f00,
+    0 0 82px #b80f00,
+    0 0 92px #b80f00,
+    0 0 102px #b80f00;
+}
+
+h3 {
+    font-size: 28px;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #6b4d57,
+    0 0 82px #6b4d57,
+    0 0 92px #6b4d57, 
+    0 0 102px #6b4d57;
+}
+
+h2 {
+    font-family: 'AbandoN';
+    font-weight: 500;
+    font-size: 70px;
+    color: #b80f00;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px #b80f00,
+    0 0 82px #b80f00,
+    0 0 92px #b80f00;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.secPage {
+    background-image: url(../images/backgMain.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -170px;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    
+    h1 {
+        font-size: 95px;
+    }
+
+    h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 50px;
+    }
+>>>>>>> f6dd4791607614da2b72000f45014b353a5a2448
 }
