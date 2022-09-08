@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "AbandoN";
+  src: url("../fonts/AbandoN.ttf");
+}
+.indexPg {
+  margin: 0 auto;
+  background: url(../images/BCKG.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indexPg a {
+  font-family: "AbandoN";
+  font-weight: 130;
+  font-size: 30px;
+  color: #6b4d57;
+}
+
+h1 {
+  font-family: "AbandoN";
+  font-weight: 100;
+  font-size: 140px;
+  color: #b80f00;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #b80f00, 0 0 82px #b80f00, 0 0 92px #b80f00, 0 0 102px #b80f00;
+  text-align: center;
+}
+
+h2 {
+  font-family: "AbandoN";
+  font-weight: 500;
+  font-size: 70px;
+  color: #b80f00;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #b80f00, 0 0 82px #b80f00, 0 0 92px #b80f00;
+}
+
+h3 {
+  font-size: 28px;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #6b4d57, 0 0 82px #6b4d57, 0 0 92px #6b4d57, 0 0 102px #6b4d57;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.secPage {
+  margin: 0 auto;
+  background: url(../images/backgMain.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -170px;
+}
+.secPage a {
+  font-family: "AbandoN";
+  font-weight: 130;
+  font-size: 30px;
+  color: #6b4d57;
+}
+
+/*# sourceMappingURL=style.css.map */
