@@ -1,77 +1,65 @@
 <<<<<<< HEAD
 @font-face {
-    font-family: 'AbandoN';
-    src: url('../fonts/AbandoN.ttf');
-  }
-
-.indexPg {
-    background-image: url(../images/BCKG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  font-family: "AbandoN";
+  src: url("../fonts/AbandoN.ttf");
 }
-
-.navbar-nav {
-    font-family: 'AbandoN' !important;
-    font-weight: 130 !important;
-    font-size: 30px !important;
-    color: #6b4d57 !important;
+.indexPg {
+  margin: 0 auto;
+  background: url(../images/BCKG.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indexPg a {
+  font-family: "AbandoN";
+  font-weight: 130;
+  font-size: 30px;
+  color: #6b4d57;
 }
 
 h1 {
-    font-family: 'AbandoN';
-    font-weight: 100;
-    font-size: 140px;
-    color: #b80f00;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #b80f00,
-    0 0 82px #b80f00,
-    0 0 92px #b80f00,
-    0 0 102px #b80f00;
-}
-
-h3 {
-    font-size: 28px;
-    text-shadow: 
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #6b4d57,
-    0 0 82px #6b4d57,
-    0 0 92px #6b4d57, 
-    0 0 102px #6b4d57;
+  font-family: "AbandoN";
+  font-weight: 100;
+  font-size: 140px;
+  color: #b80f00;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #b80f00, 0 0 82px #b80f00, 0 0 92px #b80f00, 0 0 102px #b80f00;
+  text-align: center;
 }
 
 h2 {
-    font-family: 'AbandoN';
-    font-weight: 500;
-    font-size: 70px;
-    color: #b80f00;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 42px #b80f00,
-    0 0 82px #b80f00,
-    0 0 92px #b80f00;
+  font-family: "AbandoN";
+  font-weight: 500;
+  font-size: 70px;
+  color: #b80f00;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #b80f00, 0 0 82px #b80f00, 0 0 92px #b80f00;
 }
 
-h4 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 27px;
-    font-weight: 800;
-    padding: 20px 0;
+h3 {
+  font-size: 28px;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #6b4d57, 0 0 82px #6b4d57, 0 0 92px #6b4d57, 0 0 102px #6b4d57;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .secPage {
-    background-image: url(../images/backgMain.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: -170px;
+  margin: 0 auto;
+  background: url(../images/backgMain.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -170px;
+}
+.secPage a {
+  font-family: "AbandoN";
+  font-weight: 130;
+  font-size: 30px;
+  color: #6b4d57;
 }
 
+<<<<<<< HEAD
 p {
     text-align: justify;
 }
@@ -184,3 +172,6 @@ p {
     }
 >>>>>>> f6dd4791607614da2b72000f45014b353a5a2448
 }
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> ramab

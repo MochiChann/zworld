@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'AbandoN';
+    src: url('../fonts/AbandoN.ttf');
+  }
+
+$titleColor: #b80f00;
+$secColor: #6b4d57;
+$mainBck:"../images/BCKG.png";
+$secBck:"../images/backgMain.png";
+$fontSizes: (
+    "titles": 140px,
+    "subtitles": 70px,
+    "navigation": 25px,
+    "mainNav": 30px,
+    "regular": 14px,
+    "quotes": 28px,
+);
+
+// @function size(sizeName) {
+//     @return map-get ($fontSizes, $sizeName);
+// } 
+
+@mixin titulo{
+    font-family: 'AbandoN';
+    font-weight: 100;
+    font-size: map-get($fontSizes, titles);
+    color: $titleColor;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $titleColor,
+    0 0 82px $titleColor,
+    0 0 92px $titleColor,
+    0 0 102px $titleColor;
+    text-align: center;
+}
+
+@mixin tituloSec {
+    font-family: 'AbandoN';
+    font-weight: 500;
+    font-size: map-get($fontSizes, subtitles);
+    color: $titleColor;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px $titleColor,
+    0 0 82px $titleColor,
+    0 0 92px $titleColor;
+}
+
+@mixin navPrin {
+    font-family: 'AbandoN';
+    font-weight: 130;
+    font-size: map-get($fontSizes, mainNav);
+    color: #6b4d57;
+}
+
+@mixin quotes {
+    font-size: map-get($fontSizes, quotes);
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $secColor,
+    0 0 82px $secColor,
+    0 0 92px $secColor,
+    0 0 102px $secColor;
+    text-align: center;
+}
+
+@mixin footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.indexPg {
+  margin: 0 auto;
+  background: url(#{$mainBck});
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  a {
+    @include navPrin();
+  }
+}
+
+h1 {
+    @include titulo();
+}
+
+h2 {
+    @include tituloSec();
+}
+
+h3 {
+    @include quotes();
+}
+
+.footer {
+    @include footer();
+}
+
+.secPage {
+    margin: 0 auto;
+    background: url(#{$secBck});
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -170px;
+
+    a {
+        @include navPrin();
+    }
+}
